@@ -21,6 +21,11 @@ public class PrinterTest {
     }
 
     @Test
+    public void cannotPrint(){
+        assertEquals(false, printer.print(12,10));
+    }
+
+    @Test
     public void printReducesSheets(){
         printer.print(2,5);
         assertEquals(90, printer.getSheets());
