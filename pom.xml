@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.codeclan.example</groupId>
-    <artifactId>homework_lab</artifactId>
+    <artifactId>homework_printer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
