@@ -8,4 +8,15 @@ public class Printer {
     public int getSheets(){
         return this.sheets;
     }
-}
+
+    public boolean print(int pages, int copies){
+        int total = pages * copies;
+        if (total <= this.sheets){
+            return true;
+            } else {
+            return false;
+            }
+        }
+
+    }
+
