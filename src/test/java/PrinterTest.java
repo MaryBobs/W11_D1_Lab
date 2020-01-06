@@ -19,4 +19,10 @@ public class PrinterTest {
     public void canPrint(){
         assertEquals(true, printer.print(2,5));
     }
+
+    @Test
+    public void printReducesSheets(){
+        printer.print(2,5);
+        assertEquals(90, printer.getSheets());
+    }
 }
